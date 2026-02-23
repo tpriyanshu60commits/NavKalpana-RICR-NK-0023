@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+FitAI – Adaptive Fitness Intelligence Platform
+Team Details
 
-## Getting Started
+Team Name: NavKalpana-RICR-NK-0001
+Team Leader: Priyanshu Tiwari
+Total Members: 3
 
-First, run the development server:
+Members & Roles:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Priyanshu Tiwari – System Architecture & Core Logic
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Member 2 – Frontend Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Member 3 – Backend Integration & Firebase Database
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Problem Statement
 
-## Learn More
+Develop an adaptive fitness intelligence platform that generates personalized workout and diet plans, tracks adherence, analyzes behavioral patterns, and dynamically adjusts recommendations based on performance and fatigue levels.
 
-To learn more about Next.js, take a look at the following resources:
+Project Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+FitAI is a web-based adaptive fitness system built using Next.js and Firebase.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+It operates on a closed-loop adaptive model:
 
-## Deploy on Vercel
+Profile → Plan → Execute → Track → Analyze → Adjust → Coach → Repeat
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The system is not a static template generator.
+It dynamically adapts based on user progress, habit score, and energy levels.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Core Features
+
+Secure User Authentication (Firebase Auth)
+
+Health & Goal Profile Setup
+
+Weekly Workout Plan Generator
+
+Weekly Diet Plan Generator (Calorie & Macro Based)
+
+Progress Tracking (Weight & Adherence)
+
+Body Measurement Tracking
+
+Habit Intelligence Engine
+
+Energy & Recovery Adjustment Logic
+
+Progressive Overload Implementation
+
+Goal Timeline Forecast System
+
+Rule-Based AI Coaching Assistant
+
+Tech Stack
+
+Frontend:
+
+Next.js (App Router)
+
+TypeScript
+
+Tailwind CSS
+
+Backend / Cloud Services:
+
+Firebase Authentication
+
+Firebase Firestore (NoSQL Database)
+
+State & Logic Handling:
+
+React Hooks
+
+Custom Adaptive Calculation Logic
+
+Deployment:
+
+Vercel
+
+System Architecture
+
+Frontend:
+
+UI Components (Next.js App Router)
+
+Dynamic Plan Rendering
+
+Real-time Data Sync with Firestore
+
+Backend Services:
+
+Firebase Auth for secure login
+
+Firestore for user profile, progress logs, and adherence tracking
+
+Data Flow:
+User Input → Firebase Storage → Adaptive Logic Processing → Updated Plan Rendering
